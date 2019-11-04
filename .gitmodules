@@ -1,0 +1,3 @@
+[submodule "odin-engine2/vendor/spdlog"]
+	path = odin-engine2/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

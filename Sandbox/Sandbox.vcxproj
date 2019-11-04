@@ -56,7 +56,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>ODIN_PLATFORM_WINDOWS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)odin-engine2\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)odin-engine2\vendor\spdlog\include;C:\Users\tom\Documents\Visual Studio 2015\Projects\odin-engine2\odin-engine2\src;C:\Users\tom\Documents\Visual Studio 2015\Projects\odin-engine2\odin-engine2\src\Odin;C:\Users\tom\Documents\Visual Studio 2015\Projects\odin-engine2\odin-engine2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>
@@ -70,6 +70,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)odin-engine2\vendor\spdlog\include;C:\Users\tom\Documents\Visual Studio 2015\Projects\odin-engine2\odin-engine2\src;C:\Users\tom\Documents\Visual Studio 2015\Projects\odin-engine2\odin-engine2\src\Odin;C:\Users\tom\Documents\Visual Studio 2015\Projects\odin-engine2\odin-engine2</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
